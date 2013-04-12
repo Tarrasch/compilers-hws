@@ -1,0 +1,15 @@
+digraph G {
+  node[shape=record, fontname=Courier, fontcolor=blue, fontsize=11];
+  B1[label="B1: a1 = &alpha;"]
+  B2[label="B2: a2 = &beta;"]
+  B3[label="B3: a3 = &phi;(a1, a2)"]
+  /* B4[label="B4: a = b + c"] */
+  /* B5[label="B5: a = b + c"] */
+
+  B1 -> B3
+  B2 -> B3
+  /* B3 -> B4 */
+  /* B4 -> B5 */
+  /* B5 -> B2 */
+
+}
